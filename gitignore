@@ -1,0 +1,91 @@
+# ========================
+# Environnements virtuels
+# ========================
+venv/
+.venv/
+env/
+.env/
+ENV/
+
+# ========================
+# Python
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+*.so
+
+# ========================
+# Jupyter Notebooks
+# ========================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# ========================
+# Données & Modèles
+# ========================
+data/
+ml-latest-small/
+*.csv
+*.zip
+*.gz
+*.tar
+*.pth
+*.pt
+*.ckpt
+*.pkl
+*.pickle
+*.h5
+*.hdf5
+
+# ========================
+# Résultats & Logs
+# ========================
+runs/
+logs/
+outputs/
+results/
+checkpoints/
+*.log
+*.out
+
+# ========================
+# IDE & Editeurs
+# ========================
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ========================
+# Variables d'environnement
+# ========================
+.env
+.env.local
+secrets.py
+config_local.py
+
+# ========================
+# Couverture de tests
+# ========================
+.coverage
+htmlcov/
+.pytest_cache/
