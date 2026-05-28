@@ -1,4 +1,4 @@
-# 🎬 Système de Recommandation LightGCN — MovieLens
+# 🎬 Système de Recommandation LightGCN - MovieLens
 
 > Projet ANI-IA 4068 : IA et Applications  
 > Ecole Nationale Polytechnique de Yaoundé 1  
@@ -50,7 +50,7 @@ LightGCN_Recom_Syst/
 │   └── tsne_embeddings.png   # Visualisation t-SNE
 ├── notebooks/
 │   └── lightgcn_recom_syst.ipynb   # Notebook principal
-├── checkpoints/  # gitignore — non versionné
+├── models/  # gitignore — non versionné
 │   └── lightgcn_final.pth # Modèle entraîné
 ├── env/    # gitignore — environnement virtuel
 ├── requirements.txt    # Dépendances du projet
@@ -182,6 +182,6 @@ Embeddings initiaux  →  Propagation K couches  →  Moyenne des couches  →  
 
 ---
 
-## 📄 Licence
+## 👥 Auteur
 
-Projet académique - Ecole Nationale Polytechnique de Yaoundé 1 - 2025/2026.
+MEZAGO Wilfried Aymar - Ecole Nationale Polytechnique de Yaoundé 1 - 2025/2026.
