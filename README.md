@@ -35,24 +35,25 @@ LightGCN est un modèle de filtrage collaboratif basé sur les Réseaux Neuraux 
 
 ```
 LightGCN_Recom_Syst/
-├── data/   # gitignore — non versionné
+├── data/   # gitignore - non versionné
 │   ├── ml-latest-small/   # Dataset MovieLens brut
 │   ├── train.csv  # Split entraînement (79.7%)
 │   ├── val.csv   # Split validation (9.7%)
 │   ├── test.csv  # Split test (10.5%)
 │   ├── preprocessed.pkl   # Mappings et dictionnaires
 │   ├── interaction_matrix.npz   # Matrice d'interaction creuse
+├── notebooks/
+│   └── lightgcn_recom_syst.ipynb   # Notebook principal
+├── models/  # gitignore - non versionné
+│   └── lightgcn_final.pth # Modèle entraîné
+├── env/    # gitignore - environnement virtuel
+├── results/    # Visualistation
 │   ├── distribution_notes.png   # Graphique EDA
 │   ├── distribution_films.png   # Graphique EDA
 │   ├── analyse_temporelle.png   # Graphique EDA
 │   ├── courbes_entrainement.png   # Courbes de loss
 │   ├── metriques_evaluation.png   # Recall et NDCG
 │   └── tsne_embeddings.png   # Visualisation t-SNE
-├── notebooks/
-│   └── lightgcn_recom_syst.ipynb   # Notebook principal
-├── models/  # gitignore — non versionné
-│   └── lightgcn_final.pth # Modèle entraîné
-├── env/    # gitignore — environnement virtuel
 ├── requirements.txt    # Dépendances du projet
 ├── README.md
 └── .gitignore
