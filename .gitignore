@@ -41,6 +41,7 @@ lib64/
 # ========================
 data/
 ml-latest-small/
+models/
 *.csv
 *.zip
 *.gz
@@ -50,6 +51,7 @@ ml-latest-small/
 *.ckpt
 *.pkl
 *.pickle
+*.npz
 *.h5
 *.hdf5
 
@@ -59,7 +61,6 @@ ml-latest-small/
 runs/
 logs/
 outputs/
-results/
 checkpoints/
 *.log
 *.out
