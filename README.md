@@ -1,13 +1,5 @@
 # 🎬 Système de Recommandation LightGCN - MovieLens
 
-> Projet ANI-IA 4068 : IA et Applications  
-> Ecole Nationale Polytechnique de Yaoundé 1  
-> Auteur : **MEZAGO WILFRIED AYMAR** - Matricule : 22P001  
-> Superviseur : **MR BITHA JUNIOR**  
-> Année académique : 2025 - 2026
-
----
-
 ## 📌 Description
 
 Ce projet implémente un système de recommandation de films basé sur le modèle **LightGCN** (Light Graph Convolutional Network) en utilisant le dataset **MovieLens ml-latest-small**.
@@ -185,4 +177,4 @@ Embeddings initiaux  →  Propagation K couches  →  Moyenne des couches  →  
 
 ## 👥 Auteur
 
-MEZAGO Wilfried Aymar - Ecole Nationale Polytechnique de Yaoundé 1 - 2025/2026.
+MEZAGO Wilfried Aymar - Ecole Nationale Supérieure Polytechnique de Yaoundé 1 - 2025/2026.
